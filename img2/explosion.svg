@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Réteg_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#9B9B9B;}
+	.st1{fill:#E73F11;}
+	.st2{fill:#FF9999;}
+	.st3{fill:#E52320;}
+	.st4{
+		fill:#F8E923;
+		animation: anim1 4s linear infinite;
+	}
+	@keyframes anim1{
+		0%{
+			fill: #E52320;
+		}
+
+		50%{
+			fill: #F8E923;
+
+		}
+		100%{
+			fill: #E73F11;
+		}
+	}
+</style>
+<g>
+	<animateTransform id="mounth"
+            attributeName="transform"
+            type="translate"
+            dur="1s"
+            values="0,2;0,0;0,2"
+            repeatCount="indefinite"/>
+	<animateTransform attributeName="transform"
+            type="rotate"
+            from="0 0 0"
+            to="360 50 -50"
+            dur="1s"
+            repeatCount="indefinite"/>
+	<polygon class="st0" points="19.1,5.5 15.2,13.9 7.5,17.9 15.2,21.9 19.2,28.6 23.2,21.9 30.4,18 23.2,13.9"/>
+	<polygon class="st1" points="19.2,9.2 21.3,15.8 27.1,17.9 21.3,20 19.2,25.6 17.1,20 11.9,17.9 17.1,15.8"/>
+</g>
+<g>
+	<animateTransform id="mounth"
+            attributeName="transform"
+            type="translate"
+            dur="1s"
+            values="0,2;0,0;0,2"
+            repeatCount="indefinite"/>
+	<animateTransform attributeName="transform"
+            type="rotate"
+            from="0 0 0"
+            to="360 50 50"
+            dur="1s"
+            repeatCount="indefinite"/>
+	<polygon class="st0" points="58.9,6.5 58.9,15.8 53.6,22.7 62.3,23.1 68.7,27.4 69.6,19.7 74.4,13.1 66.2,12.4"/>
+	<polygon class="st2" points="60.5,9.9 65.2,14.9 71.4,14.4 67,18.8 67.5,24.7 63.2,20.5 57.6,20.8 61.4,16.7"/>
+</g>
+<g>
+	<animateTransform id="mounth"
+            attributeName="transform"
+            type="translate"
+            dur="1s"
+            values="0,2;0,0;0,2"
+            repeatCount="indefinite"/>
+	<animateTransform attributeName="transform"
+            type="rotate"
+            from="0 0 0"
+            to="360 50 -50"
+            dur="1s"
+            repeatCount="indefinite"/>
+	<polygon class="st0" points="28.9,70.2 19.7,69.1 12.2,73.5 12.8,64.9 9.2,58 17,58.1 24.2,54 23.9,62.3"/>
+	<polygon class="st3" points="25.8,68.2 21.3,62.9 22.5,56.8 17.7,60.7 11.8,59.6 15.4,64.3 14.5,69.8 19.1,66.5"/>
+</g>
+<g>
+	<animateTransform id="mounth"
+            attributeName="transform"
+            type="translate"
+            dur="1s"
+            values="0,2;0,0;0,2"
+            repeatCount="indefinite"/>
+	<animateTransform attributeName="transform"
+            type="rotate"
+            from="0 0 0"
+            to="360 50 50"
+            dur="1s"
+            repeatCount="indefinite"/>
+	<polygon class="st0" points="57.7,54.4 58.7,63.6 54.4,71.1 63,70.4 69.9,73.9 69.8,66.1 73.8,59 65.6,59.3"/>
+	<polygon class="st4" points="59.7,57.5 65,61.9 71,60.7 67.2,65.5 68.4,71.4 63.6,67.8 58.1,68.7 61.4,64.2"/>
+</g>
+<g>
+	<animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 37 37"
+                          to="360 50 50"
+                          dur="2s"
+                          repeatCount="indefinite"/>
+	<polygon class="st0" points="39.4,9.4 29.8,30 10.9,40 29.8,49.8 39.6,66.2 49.6,49.8 67.2,40.1 49.6,30"/> 
+	<polygon class="st4" points="39.6,18.5 44.9,34.7 59.2,40 44.9,45.1 39.6,58.9 34.5,45.1 21.7,40 34.5,34.7"/>
+</g>
+</svg>

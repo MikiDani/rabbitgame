@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#FCF;}
+</style>
+    <path class='st0' d="M 10,30
+           A 20,20 0,0,1 50,30
+           A 20,20 0,0,1 90,30
+           Q 90,60 50,90
+           Q 10,60 10,30 z">
+
+        <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 50 50"
+                          to="20 50 50"
+                          dur="2s"
+                          repeatCount="indefinite"/>
+    
+    </path>
+    <path id="mounth" class="st4" d="M46.7,65.6c-5.8,7.2-9,2.9-10.8,0.2">
+        <animateTransform id="mounth"
+            attributeName="transform"
+            attributeType="XML"
+            type="translate"
+            dur="1s"
+            values="0,10;0,-40;0,10"
+            repeatCount="indefinite"/>
+    </path>
+</svg>

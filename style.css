@@ -1,0 +1,189 @@
+:root{
+    --hatter: #cdff86;
+    --keret: #d2691e;
+    --background: #002e41;
+    --carrotyellow: #fdb913;
+    --text:#382605;
+    --energybox:#aa0000;
+    --energy:#0ea420;
+    --boxbg: #ffce57;
+    --shadow:#38260549;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    background-image: url("img2/bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+}
+
+#centercontainer{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80vh;
+    margin-bottom: 30px;
+}
+
+#gridcontainer{
+    display: grid;
+    background-color: #ca995a;  /* burlywood; */
+}
+
+#gridcontainer div{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+h2{ 
+    color: #fdb913;
+    text-shadow: 2px 2px #5588cc;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ht{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#infobox{
+    box-sizing: border-box;
+    background-color: #fdb913;
+}
+
+#carrotbox{
+    display: inline-block;
+    background-image: url("img2/carrot.svg");
+    background-color: var(--boxbg);
+    box-shadow: 1px 1px 2px var(--shadow);
+}
+#carrotbox{
+    float: left;
+}
+
+#bombbox{
+    display: inline-block;
+    background-image: url("img2/bomb.svg");
+    background-color: var(--boxbg);
+    box-shadow: 1px 1px 2px var(--shadow);
+}
+#bombbox{
+    float: left;
+}
+
+#liveboxs{
+    float: right;
+}
+
+.livebox{
+    overflow: hidden;
+    height: 80%;
+    margin-top: 2.5%;
+    margin-right: 5%;
+}
+.livebox{
+    float: right;
+}
+
+#carrotinfotext, #bombinfotext{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: var(--text);
+}
+
+#carrotinfotext{
+    float:left;
+}
+#bombinfotext{
+    float:left;
+}
+
+#energybox{
+    display: inline-block;
+    background-color: var(--energybox);
+}
+
+#energybox{
+    float:right;
+}
+
+#energy{
+    background-color: var(--energy);
+}
+
+#gamepopupwindow{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align:center;
+    padding:2%;
+    width: 80%;
+    min-height: 20%;
+    left:10%;
+    top: 30%;
+    background-color: #382605dd;
+    z-index: 1000;
+}
+
+#gamepopupwindow p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#btn-gpuw{
+    width: 100px;
+    height: 3vh;
+    text-align:center;
+    background-color: var(--carrotyellow);
+    border-radius: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 70%;
+}
+
+#menuwindow{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align:center;
+    padding:2%;
+    width: 80%;
+    min-height: 20%;
+    left:10%;
+    top: 30%;
+    background-color: #c2ad87dd;
+    z-index: 1000;
+}
+
+#menuwindow-text p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+@keyframes forog {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
