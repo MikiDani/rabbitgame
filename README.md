@@ -1,6 +1,6 @@
 # Rabbit Garden Game 0.2
 Ezt a játékot javascript gyakorlásaként készítettem. A klasszikus javascript DOM manipulációt használja fel.
-## Git help:
+## Git segítségek:
 git init
 git add README.md
 git commit -m "first commit"
