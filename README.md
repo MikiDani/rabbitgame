@@ -1,4 +1,4 @@
-# Rabbit Garden Game 0.2
+# Rabbit Garden Game 0.2 | Vanilla JS
 I made this game as an exercise in javascript. It uses the classic javascript DOM manipulation.
 ## Git helps:
 git init
